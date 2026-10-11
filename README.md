@@ -1,6 +1,6 @@
 # i3mux
 
-An i3-inspired tmux pane configuration. Tested with tmux 3.7c.
+An i3-inspired tmux pane configuration.
 
 ## Installation
 
