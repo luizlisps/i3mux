@@ -1,23 +1,23 @@
 # i3mux
 
-Configuração de painéis do tmux inspirada no tiling do i3. Testada com tmux 3.7c.
+An i3-inspired tmux pane configuration. Tested with tmux 3.7c.
 
-## Instalação
+## Installation
 
-Clone o repositório:
+Clone the repository:
 
 ```sh
 git clone https://github.com/luizlisps/i3mux.git ~/.config/i3mux
 ```
 
-Adicione esta linha ao seu `~/.tmux.conf`:
+Add this line to your `~/.tmux.conf`:
 
 ```tmux
 source-file ~/.config/i3mux/tmux.conf
 ```
 
-Recarregue o tmux com `tmux source-file ~/.tmux.conf` ou abra uma nova sessão. Os atalhos estão documentados no início de `tmux.conf`.
+Reload tmux with `tmux source-file ~/.tmux.conf`, or start a new session. Key bindings are documented at the top of `tmux.conf`.
 
-## Licença
+## License
 
-Apache-2.0. Consulte [LICENSE](LICENSE).
+Apache-2.0. See [LICENSE](LICENSE).
